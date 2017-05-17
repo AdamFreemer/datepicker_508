@@ -1,0 +1,16 @@
+/.bundle/
+/.yardoc
+/Gemfile.lock
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+# Ignore windows/mac/linux files
+**/.DS_Store?
+**/.DS_Store
+**/ehthumbs.db
+**/Icon?
+**/Thumbs.db
