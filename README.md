@@ -22,7 +22,42 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+
+
+### JS Setup
+```
+function onLoadDatePickers() {
+  // This function contains setup parameters for site wide datepickers.
+  // Datepicker text field ID name and button title should be added below. The button title must be unique for 508 requirements.
+  var datePickers = [
+    { name: '#application_submitted_on_lt', title: 'Your Title Here' },
+    { name: '#birthdate', title: 'Select Birth Date' }
+  ];
+
+  for ( var datePicker = 0; datePicker < datePickers.length; datePicker++ ) {
+    $(datePickers[datePicker]['name']).mask("99-99-9999").datepicker({
+      weekDayFormat: 'narrow',
+      inputFormat: 'MM-DD-YYYY',
+      outputFormat: 'MM-dd-yyyy',
+      buttonTitle: datePickers[datePicker]['title']
+    });
+  };
+
+  clearNilDatePickers();
+}
+
+function clearNilDatePickers() {
+  if ( $.inArray( $('input#passport_expires_on_lt').val(), [ '----', '--' ] ) > - 1 ) $('input#passport_expires_on_lt').val('');
+  if ( $.inArray( $('input#passport_expires_on_gt').val(), [ '----', '--' ] ) > - 1 ) $('input#passport_expires_on_gt').val('');
+  if ( $.inArray( $('input#application_submitted_on_lt').val(), [ '----', '--' ] ) > - 1 ) $('input#application_submitted_on_lt').val('');
+  if ( $.inArray( $('input#application_submitted_on_gt').val(), [ '----', '--' ] ) > - 1 ) $('input#application_submitted_on_gt').val('');
+  if ( $.inArray( $('input#movement_date_lt').val(), [ '----', '--' ] ) > - 1 ) $('input#movement_date_lt').val('');
+}
+
+
+```
+
 
 ## Development
 
