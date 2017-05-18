@@ -17,8 +17,24 @@ And then execute:
 Or install it yourself as:
 
     $ gem install datepicker_508
+    
+### Library Includes
+
+In application.js:
+
+```
+//= require datepicker
+//= require jquery.mask
+```
+
+In application.scss:
+
+```
+ *= require datepicker
+```
 
 ## Usage
+
 
 ### CSS Setup
 TODO: CSS Setup
