@@ -48,10 +48,7 @@ function onLoadDatePickers() {
 
 function clearNilDatePickers() {
   if ( $.inArray( $('input#passport_expires_on_lt').val(), [ '----', '--' ] ) > - 1 ) $('input#passport_expires_on_lt').val('');
-  if ( $.inArray( $('input#passport_expires_on_gt').val(), [ '----', '--' ] ) > - 1 ) $('input#passport_expires_on_gt').val('');
-  if ( $.inArray( $('input#application_submitted_on_lt').val(), [ '----', '--' ] ) > - 1 ) $('input#application_submitted_on_lt').val('');
-  if ( $.inArray( $('input#application_submitted_on_gt').val(), [ '----', '--' ] ) > - 1 ) $('input#application_submitted_on_gt').val('');
-  if ( $.inArray( $('input#movement_date_lt').val(), [ '----', '--' ] ) > - 1 ) $('input#movement_date_lt').val('');
+  if ( $.inArray( $('input#birthdate').val(), [ '----', '--' ] ) > - 1 ) $('input#birthdate').val('');
 }
 
 

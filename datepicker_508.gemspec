@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "A 508 compliant datepicker"
   # spec.description   = %q{Write a longer description or delete this line.}
-  spec.homepage      = 'http://rubygems.org/gems/datepicker_508'
+  spec.homepage      = 'https://github.com/AdamFreemer/datepicker_508'
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
