@@ -1,8 +1,6 @@
 # Datepicker508
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/datepicker_508`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+TODO: Description
 
 ## Installation
 
@@ -22,10 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-
-
+### CSS Setup
+TODO: CSS Setup
 
 ### JS Setup
+TODO: JS Setup
 ```
 function onLoadDatePickers() {
   // This function contains setup parameters for site wide datepickers.
