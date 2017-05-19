@@ -60,6 +60,11 @@ for ( var datePicker = 0; datePicker < datePickers.length; datePicker++ ) {
 };
 ```
 
+Contributing
+------------
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/datepicker_508.
+
 License
 -------
 
