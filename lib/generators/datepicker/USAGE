@@ -1,0 +1,5 @@
+Description:
+    This generator will scan your application.js and application.css files and add required assets
+
+Example:
+    rails generate datepicker
