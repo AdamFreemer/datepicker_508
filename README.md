@@ -24,7 +24,11 @@ Or install it yourself as:
 
     $ gem install datepicker_508
     
-If you are using turbolinks and including asset trees, no more installation setup is required. I will be adding a generator as an option to automatically include manifest file libraries.
+Next, run the generator to install asset manifest file requires:
+
+    $ rails generate datepicker
+
+This will install the following asset requires:
 
 In application.js:
 
@@ -69,4 +73,3 @@ License
 -------
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
